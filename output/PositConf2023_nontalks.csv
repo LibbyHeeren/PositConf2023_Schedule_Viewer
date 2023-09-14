@@ -1,0 +1,124 @@
+type,title,date,start_time,end_time,room,abstract
+Meals & Breaks,Registration Open,"Saturday, September 16",05:00 PM,07:00 PM,Registration Desk,"Feel like being ahead of the curve? We’ll be open early if you’d like to check-in, and get a lay of the land. The registration desk is located in the Grand Ballroom Foyer area."
+Meals & Breaks,Breakfast (workshop registrants only),"Sunday, September 17",07:30 AM,09:00 AM,Riverside,Get your brain off to a good start before your workshop. We’ll have breakfast and coffee ready to go.
+Meals & Breaks,Registration Open,"Sunday, September 17",07:30 AM,07:00 PM,Registration Desk,Registration desk open for check-in or help with any questions you may have.
+Meals & Breaks,Lunch (workshop registrants only),"Sunday, September 17",12:30 PM,01:30 PM,Riverside,Time to refuel. We’ll have lunch ready for you.
+Social Events,Book Signing Reception (workshop registrants only),"Sunday, September 17",05:30 PM,07:00 PM,Crystal Ballroom,"Come along to enjoy drink and light snacks and most importantly, a free copy of a book, signed by one of Posit’s authors! 
+
+One book per attendee, please!
+"
+Meals & Breaks,Breakfast (workshop registrants only),"Monday, September 18",07:30 AM,09:00 AM,Riverside,It’s day two! Come grab a bite and get some coffee before you get started in your workshop.
+Meals & Breaks,Registration Open,"Monday, September 18",07:30 AM,07:00 PM,Registration Desk,Registration desk open for check-in or help with any questions you may have.
+Meals & Breaks,Lunch (workshop registrants only),"Monday, September 18",12:30 PM,01:30 PM,Riverside,"It's lunch time! Come eat, drink, and meet fellow conf attendees downstairs in Riverside."
+Social Events,Opening Reception,"Monday, September 18",05:00 PM,07:00 PM,Riverside,"Did someone say “opening night of Conf”? That’s right - we did! The Lounge is ready, and we’ll have apps, drinks and hundreds of your fellow favorite folks you haven’t seen in a while. Food and drinks will be available down in the Riverside room."
+Social Events,Birds of a Feather Coffee Meetup,"Tuesday, September 19",07:30 AM,09:00 AM,Riverside,"Grab coffee and connect with others before the conference starts.
+- R-Ladies: Join fellow R-Ladies at the R-Ladies table. 
+
+Other groups today are organized around specific fields and industries. 
+
+We'll have sections for the following, 
+- Pharma / Life Science
+- Healthcare
+- Education / Teaching
+- Finance
+- Not For Profit
+- Business Intelligence
+- Insurance
+- Environmental
+- Manufacturing / CPG
+- Supply Chain 
+- Professional Services/Consulting
+- Transportation
+- Energy
+- Media & Journalism
+"
+Meals & Breaks,Break,"Tuesday, September 19",10:00 AM,10:30 AM,Grand Ballroom Foyer,"if(vec_fmt_time(now(),time_style = ""Hm"") == ""10:00"") {break}
+
+Break time! See you at the next session at 10:30am
+"
+The Lounge,Lounge Open,"Tuesday, September 19",10:00 AM,04:20 PM,Grand Ballroom EF,"Lounge is open! Hangout with us between talks for live demos, Q&As, games, and more. Connect with others from the community - including some of your favorite package developers!"
+Meals & Breaks,Atorus Lunch and Learn<br />Challenges and Solutions Making Shiny Application User Access Management Easy and Efficient,"Tuesday, September 19",11:30 AM,01:00 PM,Grand Hall KL,"*Due to limited seating, we do require you to pre-register for these by adding them to your schedule. Lunch will be served at the session.
+
+Atorus will address common challenges with implementing user access to Shiny applications with regulatory compliance implications.  Illustrations of solutions designs to address this common theme will be presented.
+Also in this session: Janssen will present a focused case study, Secu-raccess to Clinical Data thru Connect. The discussion will describe how the raccess package is utilized to create a secure way to access multiple clinical studies from a clinical data repository. The discussion will provide the workflow and system architecture to address the challenge.  
+
+"
+Meals & Breaks,Lunch,"Tuesday, September 19",11:30 AM,01:00 PM,Riverside,POSITively starving? Head over to Riverside for lunch!
+Ask Me Anything,Ask Me Anything with Christophe Dervieux,"Tuesday, September 19",12:00 PM,01:00 PM,Virtual,"Christophe Dervieux is a developer on many of our open-source packages, including R Markdown and Quarto. Join Christophe for a virtual question and answer session on the #ama channel on Discord. Ask questions, both serious and fun, and learn from Christophe about the open-source projects he's working on!"
+Meals & Breaks,Break,"Tuesday, September 19",02:20 PM,02:40 PM,Grand Ballroom Foyer,Grabbing a coffee? The Quarto team is hanging out in The Lounge if you want to stop by & chat!
+Ask Me Anything,Ask Me Anything with Katelyn Cox,"Tuesday, September 19",04:00 PM,05:00 PM,Virtual,"Katelyn Cox is a Customer Success Representative and data enthusiast at Posit, working to make industries better through data science and statistics. Join Katelyn for a virtual question and answer session on the #ama channel on Discord. Ask questions, both serious and fun, and dive into Katelyn's knowledge working with different industries and their favorite data science tools!"
+Meals & Breaks,Break,"Tuesday, September 19",04:00 PM,04:20 PM,Grand Ballroom Foyer,"if Dates.format(now(), ""HH:MM"") == ""04:00""
+   break
+
+Break time!
+"
+Social Events,Healthcare Birds of a Feather Happy Hour,"Tuesday, September 19",06:00 PM,07:00 PM,Plaza B,Working in Healthcare? Join Posit and fellow data scientists for Happy Hour.
+Social Events,Pharma Birds of a Feather Happy Hour,"Tuesday, September 19",06:00 PM,07:00 PM,Plaza A,Working in Pharma? Join Posit and fellow data scientists for Happy Hour. 
+Social Events,Public Sector Birds of a Feather Happy Hour,"Tuesday, September 19",06:00 PM,07:00 PM,Michigan 1 ABC,Working in the Public Sector? Join Posit and fellow data scientists for Happy Hour.
+Social Events,Trivia Night,"Tuesday, September 19",07:00 PM,09:00 PM,Grand Ballroom,"Gather ’round, folks, it’s time to declare,
+A trivia night beyond compare!
+In the Grand Ballroom, at seven-thirty sharp,
+Where minds will tangle, and knowledge will spark.
+Posit::conf(2023), a haven for the wise,
+For R and Python users, a grand prize!
+Bring your comrades, form a crew,
+But remember, ten’s the maximum, it’s true!
+Craft a team name, let it be known,
+Creativity and wit beautifully sewn.
+General and data science, we’ve got it all,
+A challenge for big brains, both big and small.
+From history’s annals to numbers that dance,
+We’ll put your intellect in a trance.
+Data science aficionados, take your stance,
+With questions that’ll make your synapses prance.
+Prizes await those who rise to the top,
+In this trivia brawl, you can’t afford to flop.
+So, mark the calendar, seal the fate,
+With a team name in tow, don’t hesitate!
+Tuesday, seven-thirty, a night to be grand,
+At Posit::conf(2023), where brilliance is planned.
+Come join the fun, it’s bound to astound,
+A night of trivia, where knowledge is crowned!"
+Social Events,Birds of a Feather Coffee Meetup,"Wednesday, September 20",07:30 AM,09:00 AM,Riverside,"Grab coffee and connect with others before the conference starts.
+
+- R-Ladies: Join fellow R-Ladies at the R-Ladies table. 
+
+Other groups today are orgnaized around the tools and types of work you do. 
+
+Join us for
+- Spatial & mapping
+- Shiny developers - Meets at 8AM
+- Package developers
+- Data Science DevOps and Admin
+"
+Meals & Breaks,Break,"Wednesday, September 20",10:00 AM,10:30 AM,Grand Ballroom Foyer,"if datetime.utcnow().now.hour break
+
+It's break time! The next session starts at 10:30am
+"
+The Lounge,Lounge Open,"Wednesday, September 20",10:00 AM,02:40 PM,Grand Ballroom EF,"Have a question about something from a talk yesterday? Come say hi in the Lounge! We’re excited to chat about workflows, packages, products, & whatever else is on your mind!"
+Meals & Breaks,Databricks Lunch and Learn<br />Crossing Bridges: Reporting on NYC Taxi data with RStudio IDE and Databricks,"Wednesday, September 20",11:30 AM,01:00 PM,Grand Hall KL,"*Due to limited seating, we do require you to pre-register for these by adding them to your schedule. Lunch will be served at the session.
+
+Our passion as data enthusiasts lies in uncovering stories hidden within datasets. With RStudio IDE, we can explore insights with dplyr, create intricate graphs with ggplot2, and weave data narratives with Quarto. But what happens when we want to discover the stories within millions of rows of data? There comes a point when the sheer size of these datasets can overwhelm our local computer or even a single server node, leaving these stories seemingly out of reach.
+Recently, Posit and Databricks announced a strategic partnership aimed at creating an unmatched experience when working with RStudio and Databricks. One initiative is enhanced support for Spark Connect in R via sparklyr. Now, it’s even easier for users to access Databricks clusters via Databricks Connect, allowing data enthusiasts to spend less time on configuration and data access and more time on generating insights and impactful reports.
+
+Join this session to watch a demo to enable you to:
+•Connect RStudio IDE to Databricks
+•Discover your data with familiar tools
+•Publish your content with Posit Connect or Databricks
+See the new sparklyr experience and the seamless integration of Apache Spark, the tidyverse ecosystem and RStudio IDE. "
+Meals & Breaks,Lunch,"Wednesday, September 20",11:30 AM,01:00 PM,Riverside,It’s that time again! Lunch is here! Grab a bowl - sit and hang.
+Ask Me Anything,Ask Me Anything with Ralf Stubner,"Wednesday, September 20",12:00 PM,01:00 PM,Virtual,"Ralf Stubner is a solutions engineer a Posit, having worked in engineering and consulting roles in the financial and IT industry. He is a trained physicist who likes to analyze complex systems. Join Ralf for a virtual question and answer session on Discord. Ask questions, both serious and fun, and dig into Ralf's experience in software, IT, and finance!"
+Meals & Breaks,Break,"Wednesday, September 20",02:20 PM,02:40 PM,Grand Ballroom Foyer,It's break time!
+Ask Me Anything,Ask Me Anything with the tidymodels team,"Wednesday, September 20",04:00 PM,05:00 PM,Virtual,"Tidymodels is a collection of packages for modeling and machine learning using tidyverse principles. Join the tidymodels team for a virtual question and answer session on Discord. Ask questions, both serious and fun, and learn from the developers!"
+Meals & Breaks,Break,"Wednesday, September 20",04:00 PM,04:20 PM,Grand Ballroom Foyer,It's break time!
+Social Events,R/Ladies Meetup,"Wednesday, September 20",06:00 PM,07:30 PM,Plaza AB,"R-Ladies Chicago and R-Ladies Global are excited to co-host an R-Ladies meet-up at the conclusion of posit::conf(2023)!
+
+This event is open to the public, attendees of posit::conf and community members who are not registered for posit::conf may attend.
+
+Our primary mission is to encourage more women and minority gender individuals to get involved in the R community. As such, we strongly encourage that all men who attend this event have a woman or minority gender sponsor. In addition, speaking opportunities will be reserved for women and minority genders.
+
+Agenda:
+- Announcements from the Global Team
+- Open Q&A / panel discussion with R-Ladies Global Team members + chapter organizers
+- Mingling
+- A final hex sticker drop"
