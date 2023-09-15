@@ -5,7 +5,8 @@ library(rjson)
 # get OTHER stuff (not talks)
 
 # Call the raw json object I saved from the posit api response tab
-raw_json_schedule_nontalks <- fromJSON(file = "data/PositConf2023_Schedule_nontalks.json")
+# which grabs non-talks only (note that neither contain workshops)
+raw_json_schedule_nontalks <- fromJSON(file = "data/PositConf2023_Schedule_nontalks_9-14-11pm.json")
 
 
 # create a schedule variable that's a tibble from the json lists
@@ -23,7 +24,10 @@ get_nontalk_data <- function(sectionNum, itemNum) {
     purrr::pluck(sectionNum, "items", itemNum, "title") 
   
   talk_date <- raw_json_schedule_nontalks %>% 
-    purrr::pluck(sectionNum, "items", itemNum, "times", 1, "dateFormatted") 
+    purrr::pluck(sectionNum, "items", itemNum, "times", 1, "daySort") %>%
+    ymd() %>%
+    as.Date() %>% 
+    format("%m/%d/%Y")
   
   talk_start_time <- raw_json_schedule_nontalks %>% 
     purrr::pluck(sectionNum, "items", itemNum, "times", 1, "startTimeFormatted")
@@ -68,4 +72,4 @@ for (i in 1:nrow(nontalks_schedule)) {
 }
 
 # Save the data frame as a csv file so it's easy to put into Notion if I want
-write_csv(x = nontalk_df, "output/PositConf2023_nontalks.csv")
+write_csv(nontalk_df, "output/PositConf2023_nontalks.csv")

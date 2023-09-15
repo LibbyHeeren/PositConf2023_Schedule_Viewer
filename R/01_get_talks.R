@@ -3,7 +3,8 @@ library(jsonlite)
 library(rjson)
 
 # Call the raw json object I saved from the posit api response tab
-raw_json_schedule <- fromJSON(file = "data/PositConf2023_Schedule.json")
+# containing only Keynotes, Talks, and Lightning Talks
+raw_json_schedule <- fromJSON(file = "data/PositConf2023_Schedule_talks_9-14-11pm.json")
 
 # Create a data frame from the json
 schedule <- tibble(section = raw_json_schedule) |> 
@@ -22,7 +23,10 @@ get_talk_data <- function(sectionNum, itemNum) {
     purrr::pluck(sectionNum, "items", itemNum, "title") 
   
   talk_date <- raw_json_schedule %>% 
-    purrr::pluck(sectionNum, "items", itemNum, "times", 1, "dateFormatted") 
+    purrr::pluck(sectionNum, "items", itemNum, "times", 1, "daySort") %>%
+    ymd() %>%
+    as.Date() %>% 
+    format("%m/%d/%Y")
   
   talk_start_time <- raw_json_schedule %>% 
     purrr::pluck(sectionNum, "items", itemNum, "times", 1, "startTimeFormatted")
@@ -95,4 +99,4 @@ for (i in 1:nrow(schedule)) {
 }
 
 # Save the data frame as a csv file so it's easy to put into Notion if I want
-write_csv(x = talk_df, "output/PositConf2023_talks.csv")
+write_csv(talk_df, "output/PositConf2023_talks.csv")
