@@ -48,5 +48,4 @@ po/*~
 # RStudio Connect folder
 rsconnect/
 
-# Libby's scrap file
 scrap.R
