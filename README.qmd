@@ -1,8 +1,7 @@
 ---
-title: "Quarto as README"
+title: "Quarto as README Example"
 format: 
-  gfm:
-    preview-mode: raw
+  gfm
 ---
 
 # PositConf2023_Schedule_Viewer
@@ -23,10 +22,11 @@ library(ggplot2)
 library(geomtextpath)
 ```
 
-More example
+More example text to show you can have a Quarto document render as your README in GitHub.
 
 ```{r}
 #| warning: false
+#| error: false
 
 z = matrix(c(10, 12, 14, 17, 22,
              6, 8, 10, 14, 18,

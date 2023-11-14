@@ -1,4 +1,4 @@
-# Quarto as README
+# Quarto as README Example
 
 # PositConf2023_Schedule_Viewer
 
@@ -10,7 +10,8 @@ Quick explainer video in lieu of an actual ReadMe
 
 ## Example Header
 
-More example
+More example text to show you can have a Quarto document render as your
+README in GitHub.
 
 ``` r
 z = matrix(c(10, 12, 14, 17, 22,
@@ -37,29 +38,5 @@ ggplot(df, aes(x, y, z = z)) +
   coord_flip() +
   theme(legend.position = "none")
 ```
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
-
-    Warning in label$xoff: partial match of 'xoff' to 'xoffset'
-
-    Warning in label$yoff: partial match of 'yoff' to 'yoffset'
 
 ![](README_files/figure-commonmark/unnamed-chunk-2-1.png)
