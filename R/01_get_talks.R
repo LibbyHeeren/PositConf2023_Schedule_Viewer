@@ -98,5 +98,6 @@ for (i in 1:nrow(schedule)) {
   
 }
 
-# Save the data frame as a csv file so it's easy to put into Notion if I want
+
+# Save the data frame as a csv file so it's easy to put into Notion if I want to
 write_csv(talk_df, "output/PositConf2023_talks.csv")

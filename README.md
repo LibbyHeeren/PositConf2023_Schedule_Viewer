@@ -1,5 +1,3 @@
-# Quarto as README Example
-
 # PositConf2023_Schedule_Viewer
 
 HEYYYY! This is the code I used to create the most chaotic Google
@@ -8,10 +6,13 @@ Calendar of all time containing all events at Posit Conf 2023.
 Quick explainer video in lieu of an actual ReadMe
 [here](https://youtu.be/XzHaBQR4DB0)
 
+Below is an example of using a Quarto document rendered to gfm format to
+turn it into your GitHub README!
+
 ## Example Header
 
-More example text to show you can have a Quarto document render as your
-README in GitHub.
+Here’s a fun bit of code that creates a contour plot, which I then turn
+into a rainbow!
 
 ``` r
 z = matrix(c(10, 12, 14, 17, 22,
